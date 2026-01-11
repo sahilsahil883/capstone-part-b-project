@@ -1,1 +1,1 @@
-# capstone-part-b-project
+This folder contains project documentation and planning artefacts.
