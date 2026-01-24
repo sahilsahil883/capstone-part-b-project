@@ -1,5 +1,6 @@
-Dataset Name: CERT Insider Threat Dataset  
-Source: Kaggle  
-Link: https://www.kaggle.com/datasets/nitishabharathi/cert-insider-threat
-
-The full dataset was reviewed for structure and relevance. A small representative sample was used in this project to demonstrate cybersecurity logging concepts while avoiding ethical and privacy risks.
+timestamp,user,event_type,resource,action
+2026-01-20 09:01,user01,LOGIN,system,SUCCESS
+2026-01-20 09:05,user01,FILE_ACCESS,training_module,READ
+2026-01-20 09:15,user01,EMAIL_ACTIVITY,email_client,SENT
+2026-01-20 10:00,user02,LOGIN,system,FAILED
+2026-01-20 10:02,user02,LOGIN,system,SUCCESS
