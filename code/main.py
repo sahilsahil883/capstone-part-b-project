@@ -15,4 +15,11 @@ log_event(employee.username, "Accessed phishing awareness module")
 
 # Admin reviews logs
 if admin.has_permission("view_logs"):
+
     print("Admin is authorised to review logs.")
+
+# Test user restriction
+if employee.has_permission("view_logs"):
+    print("User is authorised to review logs.")
+else:
+    print("User is NOT authorised to review logs.")
