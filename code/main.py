@@ -23,3 +23,7 @@ if employee.has_permission("view_logs"):
     print("User is authorised to review logs.")
 else:
     print("User is NOT authorised to review logs.")
+
+# Simulate failed login attempt
+log_event("user01", "LOGIN_FAILED")
+
